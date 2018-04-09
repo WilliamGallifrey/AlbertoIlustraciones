@@ -1,0 +1,210 @@
+
+*{box-sizing: border-box;}
+
+.col-lg-4 .col-lg-6 {padding: 0;}
+
+.container{width: 100%; max-width: 100%; padding: 0;}
+
+a {color: white;}
+
+div.container.all-content{padding:0;
+		margin: 0;
+		width: 100%;}
+
+.content-main{padding-top: 30px;}
+
+.brand-top{
+	background-color: black;
+	height: 70px;
+	width: 100%;
+	margin-bottom: 5px;}
+
+.brand-img{height: 70px;
+width: auto;}
+
+.sticky {height: 60px;
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+#navbar{z-index: 100;
+background-color: black;
+margin-bottom: 5px;
+}
+
+#navbar-mob{
+width: 100%;
+position: fixed;
+z-index: 100;
+background-color: black;
+margin-bottom: 5px;
+}
+
+#brand {color: white;}
+
+.navbar-light .navbar-toggler{background-color: white;}
+
+.seccion {margin-bottom: 10px;}
+
+.init-lg-nav{ position:absolute; visibility: hidden;}
+
+a.nav-linka {
+padding: 0 10px 0 10px;
+border: 2px solid black;
+font-family: 'Maven Pro', sans-serif;
+margin-right: 5px;
+text-decoration: none;
+color: rgba(255,255,255,1);
+font-size: 1.3em;
+}
+
+
+a.nav-linkb {
+padding: 0 10px 0 10px;
+font-family: 'Maven Pro', sans-serif;
+text-decoration: none;
+color: rgba(255,255,255,1);
+font-size: 1.3em;
+}
+
+a.nav-linka:hover {border: 2px solid white;}
+
+.navbar.nav{width: 100%;
+}
+
+.navbar-light .navbar-toggler{border-color: white; background-color: black;}
+.navbar-toggler:focus{outline:none;}
+span.navbar-toggler-icon{color: white;}
+
+ul.navbar-nav{margin:auto;}
+
+ul.sidebar{list-style-type:none;
+}
+
+
+
+.imgtrio {border: 2px solid #eeeeee;
+padding:7px;}
+
+.modal-dest{
+
+	position: absolute;
+    color: white; height: 100%;
+    width: 97%;
+    background-color: transparent;
+
+	}
+
+.modal-dest:hover{background-color: rgba(0,0,0,0.5);
+}
+
+.modal-dest:hover > .modal-text{border: 2px solid white;}
+
+.modal-text{border: 2px solid transparent; padding: 3px; position: absolute; top:40%; left:40%;}
+
+a.modal-text{font-family: 'Maven Pro', sans-serif; visibility: hidden; font-size: 2vw;}
+
+a.modal-text:hover {text-decoration: none; color: grey;}
+
+.modal-dest:hover > a.modal-text{visibility: visible;}
+
+.imgdest > img {width: 100%;}
+
+.imgtrio {overflow: hidden; padding-right: 7px;}
+
+.imgtrio > img {width: 600px; height: 600px; overflow: hidden;}
+
+.imgtrio img {transition: all .2s ease-in-out; margin-bottom: 5px;}
+
+.imgtrio img:hover {transform: scale(1.02);}
+
+.text-trio { font-size: 1.6vw; font-family: 'Maven Pro', sans-serif;}
+.text-trio-div {height: 65px;}
+
+.destacados {margin-right: auto; margin-left: auto; margin-bottom: 5%;}
+
+.seccion-links {margin: 5% 0 5% 0;}
+
+.links-trio{
+	margin: auto; 
+	background-color: #f1f1f1;
+	border: 2px solid transparent;
+
+	}
+.links-trio h3 {color: black; text-align: center;}
+
+.links-trio:hover{border: 2px solid black;}
+
+.links-trio a {text-decoration: none;}
+
+
+.carousel-container{background-color: #cccccc; width: 100%; height:auto; padding: 20px; margin-bottom: 10px;}
+
+#carouselExampleIndicators{margin: 15px 0 45px 0;}
+.carousel-img {margin: auto; width:85%; height: 100%;}
+
+
+.imgrec > img {width: 100%;}
+
+
+span.rec-text{font-family: 'Maven Pro', sans-serif; font-size: 3vw;}
+
+@media (max-width: 991px) {
+
+	div.container.all-content{padding:0;
+		margin: 0;
+		width: 100%}
+
+	.content-main{padding-top: 105px;}
+
+		.nav-item{margin-top: 20px;}
+
+		a.modal-text{visibility: visible;}
+
+		.navbar-brand{font-size: 4vw;}
+		body{width: 100%;}
+
+	
+	a.nav-link {margin-bottom: 5px;
+		font-size: 3vw;}
+
+		.imgdest > img {width: 100%;
+			margin-bottom: 5px;}
+
+	.carousel-img{width: 100%; height: 100%;}
+
+	.text-trio {
+		font-size: 1.2em;}
+		.text-trio-div {height: 45px;}
+		.imgtrio {margin: 5% 0 8% 0;}
+		.modal-text{border: 2px solid white;}
+
+		.imgtrio > img {width: 100%; height: auto;}
+
+	
+
+	span.rec-text{font-family: 'Maven Pro', sans-serif; font-size: 4vw;}
+	
+	}
+
+
+
+
+
+@media (max-width: 768px)
+
+{
+	.navbar-brand{font-size: 6vw;}
+
+.imgtrio {margin: 4% 0 4% 0;}
+
+
+
+
+}
