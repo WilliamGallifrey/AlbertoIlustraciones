@@ -1,0 +1,8 @@
+.main-gal{padding: 0; transition: opacity .6s;}
+
+.main-gal:hover{opacity: 0.5;}
+
+.main-cont{margin-top: 15px;}
+
+
+

@@ -18,6 +18,7 @@ div.container.all-content{padding:0;
 
 .top-gal:hover{opacity: 0.5;}
 
+
 .brand-top{
 	background-color: #333333;
 	height: auto;
@@ -29,28 +30,17 @@ div.container.all-content{padding:0;
 height: 70px;
 width: auto;}
 
-.sticky {height: 60px;
-  position: fixed;
-  top: 0;
-  width: 100%
-}
-
-/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + .content {
-  padding-top: 60px;
-}
 
 #navbar{z-index: 100;
 background-color: #333333;
-margin-bottom: 5px;
+
 }
 
 #navbar-mob{
 width: 100%;
-position: fixed;
 z-index: 100;
 background-color: #333333;
-margin-bottom: 5px;
+
 }
 
 #brand {color: white;}
@@ -105,72 +95,6 @@ ul.sidebar{list-style-type:none;
 }
 
 
-
-.imgtrio {border: 2px solid #eeeeee;
-padding:7px;}
-
-.modal-dest{
-
-	position: absolute;
-    color: white; height: 100%;
-    width: 97%;
-    background-color: transparent;
-
-	}
-
-.modal-dest:hover{background-color: rgba(0,0,0,0.5);
-}
-
-.modal-dest:hover > .modal-text{border: 2px solid white;}
-
-.modal-text{border: 2px solid transparent; padding: 3px; position: absolute; top:40%; left:40%;}
-
-a.modal-text{font-family: 'Maven Pro', sans-serif; visibility: hidden; font-size: 2vw;}
-
-a.modal-text:hover {text-decoration: none; color: grey;}
-
-.modal-dest:hover > a.modal-text{visibility: visible;}
-
-.imgdest > img {width: 100%;}
-
-.imgtrio {overflow: hidden; padding-right: 7px;}
-
-.imgtrio > img {width: 600px; height: 600px; overflow: hidden;}
-
-.imgtrio img {transition: all .2s ease-in-out; margin-bottom: 5px;}
-
-.imgtrio img:hover {transform: scale(1.02);}
-
-.text-trio { font-size: 1.6vw; font-family: 'Maven Pro', sans-serif;}
-.text-trio-div {height: 65px;}
-
-.destacados {margin-right: auto; margin-left: auto; margin-bottom: 5%;}
-
-.seccion-links {margin: 5% 0 5% 0;}
-
-.links-trio{
-	margin: auto; 
-	background-color: #f1f1f1;
-	border: 2px solid transparent;
-
-	}
-.links-trio h3 {color: black; text-align: center;}
-
-.links-trio:hover{border: 2px solid black;}
-
-.links-trio a {text-decoration: none;}
-
-
-.carousel-container{background-color: #cccccc; width: 100%; height:auto; padding: 20px; margin-bottom: 10px;}
-
-#carouselExampleIndicators{margin: 15px 0 45px 0;}
-.carousel-img {margin: auto; width:85%; height: 100%;}
-
-
-.imgrec > img {width: 100%;}
-
-
-span.rec-text{font-family: 'Maven Pro', sans-serif; font-size: 3vw;}
 
 @media (max-width: 991px) {
 
