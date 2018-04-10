@@ -102,7 +102,6 @@ span.navbar-toggler-icon{color: #71c7ec;}
 ul.navbar-nav{margin:auto;}
 
 ul.sidebar{
-	margin-top: 18px;
 	list-style-type:none;
 	background-color: rgba(0,80,115,0.4);
 }
@@ -118,6 +117,9 @@ ul.sidebar{
 
 
 @media (max-width: 991px) {
+
+	ul.sidebar{
+	margin-top: 0;}
 
 	#thumbs{margin-top: 50px;}
 
@@ -168,7 +170,9 @@ ul.sidebar{
 @media (max-width: 768px)
 
 {
+ul.sidebar{margin-top: 15px;}
 	.navbar-brand{font-size: 5vw;}
+}
 
 .imgtrio {margin: 4% 0 4% 0;}
 
