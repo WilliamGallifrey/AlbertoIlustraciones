@@ -26,7 +26,7 @@ div.container.all-content{padding:0;
 
 
 .brand-top{
-	background-color: #333333;
+	background-color: #005073;
 	height: auto;
 	width: 100%;
 	}
@@ -38,7 +38,7 @@ width: auto;}
 
 
 #navbar{z-index: 100;
-background-color: #333333;
+background-color: #005073;
 
 }
 
@@ -48,7 +48,7 @@ float: left;
 position: fixed;
 width: 100%;
 z-index: 100;
-background-color: rgba(0,0,0,0.4);
+background-color: rgba(0,80,115,0.4);
 
 
 
@@ -88,23 +88,23 @@ font-size: 1.3em;
 
 .nav-item a{transition: color 0.6s ease;}
 
-.nav-item:hover {background-color: white;}
+.nav-item:hover {background-color: #71c7ec;}
 
-.nav-item:hover a{color: #333333;}
+.nav-item:hover a{color: #005073;}
 
 .navbar.nav{width: 100%;
 }
 
 
 .navbar-toggler:focus{outline:none;}
-span.navbar-toggler-icon{color: white;}
+span.navbar-toggler-icon{color: #71c7ec;}
 
 ul.navbar-nav{margin:auto;}
 
 ul.sidebar{
-	margin-top: 5px;
+	margin-top: 18px;
 	list-style-type:none;
-	background-color: rgba(0,0,0,0.4);
+	background-color: rgba(0,80,115,0.4);
 }
 
 

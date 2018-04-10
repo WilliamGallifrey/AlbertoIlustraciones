@@ -1,28 +1,50 @@
+
+a:hover{text-decoration: none;}
+
 body{
-    background-image: url("http://via.placeholder.com/1400x700");
+    background-image: url("../images/gallery/4crop.jpeg");
+    background-size: 100px 900px;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% auto;
 }
 
-.perfil-intro {margin: 20% 30% 5.6% 20%;}
+.perfil-intro {margin: 20% 30% 5.6% 20%; color: white; background-color: rgba(0,0,0,0.5); box-shadow: 0px 30px 40px rgba(0,0,0,.1);}
 
-.perfil-text{ background-color: #56c9ff; height: 100%; padding: 5% 25% 0 10px; }
+.perfil-text{ background-color: #71c7ec; height: 100%; padding: 20% 25% 0 10px; font-size: 3.5vw; }
 
 .img-perf{ margin: 10px 0 0 20px; }
+
+.fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
 
 
 @media (max-width: 991px){
 
-	body{background-image: url("http://via.placeholder.com/1400x900")}
+	.perfil-text{font-size: 10vw; padding: 5% 25% 0 10px;
+	 background-size: 100px 900px;}
+
+	 .perfil-intro {margin: 17% 20% 50% 15%;}
+
+	body{background-image: url("../images/gallery/4.jpeg")}
 	
 }
 
 @media (max-width: 768px){
 
 
-	.perfil-intro {margin: 10% 20% 5.6% 15%;}
+	.perfil-intro {margin: 17% 20% 40% 15%;}
 
-	body{background-image: url("http://via.placeholder.com/1400x1600")}
+	body{background-image: url("../images/gallery/4.jpeg")}
 	
 }

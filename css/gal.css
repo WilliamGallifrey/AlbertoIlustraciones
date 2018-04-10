@@ -4,11 +4,11 @@
 
 
 
-.carousel-inner{margin: 15px 20% 0 0;}
+.carousel-inner{margin: 0 20% 0 0;}
 
-img.img-fluid{height: 600px; width: auto; margin: 3% auto 0 auto;}
+img.img-fluid{height: 750px; width: auto; margin: 3% auto 0 auto;}
 
-.gallery-lg{height: 750px; margin: 0 0 10px 0; width: 100%; background-color: #333333;}
+.gallery-lg{height: 830px; margin: 0 0 10px 0; width: 100%; background-color: #26304f;}
 
 .main-gal{padding: 0; transition: opacity .6s; height: 200px; overflow: hidden;}
 
