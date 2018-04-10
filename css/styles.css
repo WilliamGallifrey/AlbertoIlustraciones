@@ -1,6 +1,10 @@
 
 *{box-sizing: border-box;}
 
+#img-portada{width: 100%;}
+
+.row-portada{width: 100%; padding: 0; margin: 0;}
+
 .row{width: 100%; padding: 0; margin: 0;}
 
 .col-lg-4 .col-lg-6 {padding: 0;}
@@ -47,8 +51,8 @@ background-color: #333333;
 
 #brand {color: white;}
 
-.navbar{padding: 0; height: 70px;}
-.navbar-nav{height: 50px;}
+.navbar{padding: 0; height:40px;}
+.navbar-nav{height: 30px;}
 
 .seccion {margin-bottom: 10px;}
 
