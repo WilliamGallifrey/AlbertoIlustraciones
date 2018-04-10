@@ -14,7 +14,7 @@ div.container.all-content{padding:0;
 .content-main{padding-top: 30px;}
 
 
-.top-gal{padding: 1px; transition: opacity .6s;}
+.top-gal{padding: 1px; transition: opacity .6s; height: 200px;}
 
 .top-gal:hover{opacity: 0.5;}
 
