@@ -17,4 +17,34 @@ $(document).ready(function(){
 
 	//Añadir comportamiento de las flechas
 
+	$('#control-prev').click(function(){
+		var res;
+		var url = "images/gallery/";
+		var num = $('#largeImage').attr('src').replace(url,'');
+		console.log("nombre de archivo encontrado: "+num);
+		num = num.replace('.jpeg','');
+		num = parseInt(num);
+		if(num == 1){num = 22;}
+		else{num--;}
+		res =url+num+".jpeg";
+		$('#largeImage').attr(
+    	'src',res);
+
+	});
+
+
+	$('#control-next').click(function(){
+		var res;
+		var url = "images/gallery/";
+		var num = $('#largeImage').attr('src').replace(url,'');
+		num = num.replace('.jpeg','');
+		num = parseInt(num);
+		if(num == 22){num = 1;}
+		else{num++;}
+		res =url+num+".jpeg";
+		$('#largeImage').attr(
+    	'src',res);
+
+	});
+
 })
