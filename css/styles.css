@@ -43,15 +43,20 @@ background-color: #333333;
 }
 
 #navbar-mob{
+top:0;
+float: left;
+position: fixed;
 width: 100%;
 z-index: 100;
-background-color: #333333;
+background-color: rgba(0,0,0,0.2);
+
+
 
 }
 
-#brand {color: white;}
+#brand {color: white; font-family: 'Maven Pro', sans-serif;}
 
-.navbar{padding: 0; height:40px;}
+.navbar{padding: 0; height:50px;}
 .navbar-nav{height: 30px;}
 
 .seccion {margin-bottom: 10px;}
@@ -96,13 +101,25 @@ span.navbar-toggler-icon{color: white;}
 
 ul.navbar-nav{margin:auto;}
 
-ul.sidebar{list-style-type:none;
-	background-color: #333333;
+ul.sidebar{
+	margin-top: 5px;
+	list-style-type:none;
+	background-color: rgba(0,0,0,0.4);
 }
 
 
+.custom-toggler.navbar-toggler {
+	margin-top: 4px;
+    border: 2px solid white;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
 
 @media (max-width: 991px) {
+
+	#thumbs{margin-top: 50px;}
 
 	div.container.all-content{padding:0;
 		margin: 0;
@@ -139,6 +156,8 @@ ul.sidebar{list-style-type:none;
 	span.rec-text{font-family: 'Maven Pro', sans-serif; font-size: 4vw;}
 
 	.navbar-brand{font-size: 4vw;}
+
+	
 	
 	}
 
