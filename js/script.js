@@ -14,7 +14,7 @@ $(document).ready(function(){
 
 	}
 
-
+	if($(window).width() < 991){
 	$('#thumbs').find('img').click(function(){
     	
 
@@ -26,7 +26,7 @@ $(document).ready(function(){
 
 
 		});
-
+	}
 
 	//Añadir comportamiento de las flechas
 
