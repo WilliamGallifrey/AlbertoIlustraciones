@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	if($(window).width() >= 991)
+	if($(window).width() > 991)
 	{
 
 		$('#thumbs').find('img').click(function(){
@@ -13,6 +13,19 @@ $(document).ready(function(){
 
 
 	}
+
+
+	$('#thumbs').find('img').click(function(){
+    	
+
+		var imgsrc =$(this).attr('src');
+		
+
+		$('#modalBack').css('display' , 'block');
+		$('#imgModal').attr('src',imgsrc);
+
+
+		});
 
 
 	//Añadir comportamiento de las flechas
@@ -44,6 +57,30 @@ $(document).ready(function(){
 		res =url+num+".jpeg";
 		$('#largeImage').attr(
     	'src',res);
+
+	});
+
+
+
+
+	$('#largeImage').click(function(){
+
+		
+
+		var imgsrc =$('#largeImage').attr('src');
+
+		
+
+		$('#modalBack').css('display' , 'block');
+		$('#imgModal').attr('src',imgsrc);
+
+
+	});
+
+	$('.close').click(function(){
+
+
+		$('#modalBack').css('display' , 'none');
 
 	});
 
